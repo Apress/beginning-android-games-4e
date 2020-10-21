@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+android:id="@+id/endHandLayout"
+android:layout_width="275dp"
+android:layout_height="wrap_content"
+android:orientation="vertical"
+android:layout_gravity="top"
+xmlns:android="http://schemas.android.com/apk/res/android"
+>
+<TextView
+android:id="@+id/endHandText"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text=""
+android:textSize="16sp"
+android:layout_marginLeft="5dp"
+android:textColor="#FFFFFF"
+>
+</TextView>
+<Button
+android:id="@+id/nextHandButton"
+android:layout_width="125dp"
+android:layout_height="wrap_content"
+android:text="Next Hand"
+>
+</Button>
+</LinearLayout>
